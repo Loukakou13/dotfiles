@@ -16,6 +16,8 @@ return require('packer').startup(function(use)
 
     -- My plugins here
 
+    use { 'ellisonleao/gruvbox.nvim' }
+
     use {
         'nvim-tree/nvim-tree.lua',
         requires = {
