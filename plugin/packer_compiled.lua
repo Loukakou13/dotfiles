@@ -74,11 +74,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["gruvbox.nvim"] = {
-    loaded = true,
-    path = "/home/charon/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
-  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/charon/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -88,6 +83,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/charon/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["rose-pine"] = {
+    loaded = true,
+    path = "/home/charon/.local/share/nvim/site/pack/packer/start/rose-pine",
+    url = "https://github.com/rose-pine/neovim"
   }
 }
 

@@ -16,8 +16,12 @@ return require('packer').startup(function(use)
 
     -- My plugins here
 
+    -- colorscheme
     use { 'ellisonleao/gruvbox.nvim' }
+    use { 'EdenEast/nightfox.nvim' }
+    use ({ 'rose-pine/neovim', as = 'rose-pine' })
 
+    -- tree explorer
     use {
         'nvim-tree/nvim-tree.lua',
         requires = {
