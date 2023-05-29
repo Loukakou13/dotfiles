@@ -35,8 +35,10 @@ return require('packer').startup(function(use)
         },
         tag = 'nightly',
     }
-
     --use 'nvim-tree/nvim-web-devicons'
+    
+    -- Comment plugin
+    use { 'numToStr/Comment.nvim' }
 
 
     -- Automatically set up your configuration after cloning packer.nvim
