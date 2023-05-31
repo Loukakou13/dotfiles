@@ -27,6 +27,12 @@ return require('packer').startup(function(use)
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 
+    -- Fuzzy finder
+    use {
+        'nvim-telescope/telescope.nvim', branch = '0.1.x',
+        requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
     -- File explorer
     use {
         'nvim-tree/nvim-tree.lua',
