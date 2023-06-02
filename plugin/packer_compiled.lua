@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/charon/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["fugitive.nvim"] = {
+    loaded = true,
+    path = "/home/charon/.local/share/nvim/site/pack/packer/start/fugitive.nvim",
+    url = "https://github.com/nvim-fugitive/fugitive.nvim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/charon/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",

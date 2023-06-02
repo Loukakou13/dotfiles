@@ -41,7 +41,11 @@ return require('packer').startup(function(use)
         },
         tag = 'nightly',
     }
-    --use 'nvim-tree/nvim-web-devicons'
+
+
+    -- Fugitive
+    --use { 'nvim-fugitive/fugitive.nvim' }
+    
     
     -- Comment plugin
     use { 'numToStr/Comment.nvim' }
