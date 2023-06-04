@@ -79,10 +79,10 @@ _G.packer_plugins = {
     path = "/home/charon/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
-  ["fugitive.nvim"] = {
+  ["bufferline.nvim"] = {
     loaded = true,
-    path = "/home/charon/.local/share/nvim/site/pack/packer/start/fugitive.nvim",
-    url = "https://github.com/nvim-fugitive/fugitive.nvim"
+    path = "/home/charon/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
@@ -129,6 +129,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/charon/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/charon/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/charon/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 

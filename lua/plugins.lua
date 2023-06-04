@@ -21,11 +21,12 @@ return require('packer').startup(function(use)
     use { 'EdenEast/nightfox.nvim' }
     use ({ 'rose-pine/neovim', as = 'rose-pine' })
 
-    -- Status line
+    -- Status line and tabs line
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
+    use { 'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons' }
 
     -- Fuzzy finder
     use {
@@ -42,11 +43,12 @@ return require('packer').startup(function(use)
         tag = 'nightly',
     }
 
-
     -- Fugitive
-    --use { 'nvim-fugitive/fugitive.nvim' }
+    use { 'tpope/vim-fugitive' }
     
-    
+    -- Surrount plugin
+   use { 'tpope/vim-surround' }
+
     -- Comment plugin
     use { 'numToStr/Comment.nvim' }
 
