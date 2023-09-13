@@ -81,9 +81,6 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec rofi -show drun
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
-# There also is i3-dmenu-desktop which only displays applications shipping a
-# .desktop file. It is a wrapper around dmenu, so you need that installed.
-# bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+j focus left
@@ -238,4 +235,4 @@ smart_gaps on
 
 ## Start up
 exec feh --bg-fill ~/Wallpapers/mr-robot_wallpaper6.jpg
-exec picom -b
+exec picom --fade-in-step=1 --fade-out-step=1 --fade-delta=0 --vsync -b
