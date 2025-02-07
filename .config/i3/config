@@ -85,7 +85,7 @@ bindsym $mod+d exec rofi -show drun
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
-bindsym $mod+l focus up
+#bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
@@ -222,7 +222,7 @@ bar {
 }
 
 ### Custome keys
-bindsym $mod+BackSpace exec i3lock
+bindsym $mod+l exec i3lock
 
 # Hide window title bar
 default_border pixel 1
