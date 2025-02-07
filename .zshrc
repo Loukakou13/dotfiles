@@ -46,3 +46,6 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 
 # Aliases
 alias ls='ls --color'
+
+# Shell instegrations
+eval "$(fzf --zsh)"
